@@ -1,0 +1,70 @@
+
+/*to do list css*/
+body{
+    background-color:rgb(172, 56, 56) ;
+}
+.to-do-list{
+    font-family:arial,san-serif;
+    text-align:center;
+    margin-top:100px;
+}
+h1{
+    font: size 4rem;
+    color:white;
+}
+button{
+    font-size:1.7rem;
+    font-weight:bold;
+    padding:10px 20px;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:background-color 0.5s ease;
+
+}
+.add-button{
+    background-color:rgb(16, 202, 16)
+}
+.add-button:hover{
+    background-color: rgb(84, 184, 84);
+}
+.delete-button {
+    background-color: rgb(189, 199, 189)
+}
+.delete-button:hover {
+    background-color: rgb(26, 201, 26)
+}
+.move-button {
+    background-color: rgb(68, 68, 202)
+}
+input[type="text"]{
+    font-size:1.6rem;
+    padding:10px;
+    border:2px solid  rgb(221, 17, 17);
+    border-radius: 5px;
+    color:rgb(71, 39, 39)
+}
+ol{
+    padding:0;
+}
+li{
+    font-size:2rem;
+    font-weight:bold;
+    padding:15px;
+    background-color:hsl(0,0%,97%);
+    margin-bottom:10px;
+    border:3px solid hsl(0,0%,85%,0.75);
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+}
+.text{
+    flex: grow 1;
+   
+}
+.delete-button,.move-button{
+   padding:8px 12px ;
+   font-size:1.4rem;
+   margin-left:10px;
+}
